@@ -1,0 +1,54 @@
+body {
+  opacity: 0.8;
+  background-color: #000000;
+}
+.navbar {
+  border-bottom: #39ff14 1px solid;
+  opacity: 0.8;
+}
+#home {
+  position: relative;
+  background: url(images/home.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 600px;
+  opacity: 0.8;
+  text-align: center;
+}
+#home .card-header {
+  text-align: center;
+}
+
+#projects {
+  background: url(images/projects.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 500px;
+}
+
+#projects .my-projects {
+  text-align: center;
+  opacity: 0.9;
+}
+#projects .col-lg-6 {
+  padding: 15px 45px;
+}
+
+#projects .fas {
+  color: #39ff14;
+  opacity: 0.7;
+}
+#accomplishments {
+  background: url(images/accomplishments.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 500px;
+}
+
+#accomplishments .my-accomplishments {
+  text-align: center;
+  opacity: 0.9;
+}
